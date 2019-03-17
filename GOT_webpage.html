@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+  body{
+    background-image: url('GOT.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: black;
+  }
+  </style>
+</head>
+<body>
+
+<h2 style="color:white;">GAME OF THRONES</h2>
+
+<form style="color:white;font-size:15px;">
+  <label for="Name">Name:</label><br>
+  <input type="text" name="Name">
+  <br>
+  <label for="Surname">Surname:</label><br>
+  <input type="text" name="Surname">
+  <br>
+  <label for="Father's Name">Father's Name:</label><br>
+  <input type="text" name="Father's Name">
+  <br>
+  <label for="Mother's Name">Mother's Name:</label><br>
+  <input type="text" name="Mother's Name">
+  <br>
+  <label for="Member Alive">Member Alive:</label><br>
+  <input type="radio" name="Member Alive" value="True"> True<br>
+  <input type="radio" name="Member Alive" value="False"> False<br>
+  <label for="Traits">Traits:</label><br>
+  <select name="Traits">
+  <option value="Strong">Strong</option>
+  <option value="Polite">Polite</option>
+  <option value="Loyal">Loyal</option>
+  <option value="Beautiful">Beautiful</option>
+  <option value="Sneaky">Sneaky</option>
+  <option value="Experienced">Experienced</option>
+  </select>
+  <br>
+  <button type="button" onclick="alert('Data inserted!')">Insert</button>
+  <button type="button" onclick="alert('Data updated!')">Update</button>
+  <button type="button" onclick="alert('Data deleted!')">Delete</button>
+</form>
+
+
+</body>
+</html>
